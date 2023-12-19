@@ -1,0 +1,33 @@
+.main-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('Assets/Images/a1.png'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Reduced the columns to make it look more professional */
+  grid-gap: 1rem;
+  width: 80%; /* Adjust the width for better spacing */
+  margin: 0 auto; /* Center-align the buttons */
+}
+
+.square-button {
+  width: 100%;
+  height: 10rem;
+  border: none;
+  border-radius: 10px; /* Added border-radius for a more modern look */
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s; /* Added smooth transition for hover effect */
+}
+
+.square-button:hover {
+  background-color: #0056b3; /* Darken the button color on hover */
+}
